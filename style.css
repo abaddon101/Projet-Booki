@@ -883,7 +883,9 @@ footer {
   .populary_block_title {
     width: 90%;
   }
-
+  #populary_item {
+    border-radius:0px;
+  }
   /*\\\\\\\\\\\\\\\\\\\\ SECOND PART END////////////////////*/
 
   /*\\\\\\\\\\\\\\\\\\\\ ACCOMODATION BLOCK END////////////////////*/
