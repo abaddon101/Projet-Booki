@@ -347,7 +347,7 @@ input {
   margin: 0px;
   margin-bottom: 0px;
   margin-bottom: 50px;
-  height: 220px;
+  height: 240px;
 }
 
 .infocards {
@@ -356,14 +356,14 @@ input {
   justify-content: space-between;
   margin-top: 5px;
   margin-left: 15px;
-  height: 30%;
+  height: 35%;
 }
 
 .content_accommodation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 60%;
+  height: 50%;
 }
 
 .figure_version1:hover {
