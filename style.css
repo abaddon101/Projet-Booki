@@ -129,15 +129,17 @@ i {
 
 /*\\\\\\\\\\\\\\\\\\\\ SEARCHBAR ////////////////////*/
 .formular_block {
-  display: flex;
-  width: 28%;
-  border: 1px solid #f2f2f2;
-  border-radius: 10px;
-  height: 30px;
-  margin-bottom: 25px;
-  margin-left: 15px;
+	width: 100%;
+	margin-bottom: 25px;
 }
-
+#searchingbar_parent{
+	display: flex;
+	width: 325px;
+	border: 1px solid #f2f2f2;
+	border-radius: 10px;
+	height: 40px;
+	margin-left: 15px;
+}
 #logobar {
   border-radius: 10px 0px 0px 10px;
   background-color: #f2f2f2;
@@ -167,10 +169,10 @@ input {
 }
 
 .searchbutton {
-  width: 30%;
+  width: 25%;
   display: flex;
   margin-top: -1px;
-  min-width: 30%;
+
 }
 
 .searchbutton input {
@@ -655,8 +657,8 @@ footer {
   /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ HEADER END //////////////////////////////*/
 
   /*\\\\\\\\\\\\\\\\\\\\ SEARCHBAR ////////////////////*/
-  .formular_block {
-    width: 40%;
+  #searchingbar_parent{
+	width: 50%;
   }
 
   #logobar {
@@ -835,9 +837,14 @@ footer {
 
   /*\\\\\\\\\\\\\\\\\\\\ SEARCHBAR ////////////////////*/
   .formular_block {
-    width: 75%;
+    width: 100%;
   }
-
+  #searchingbar_parent{
+	width: 90%;
+  }
+  .searchbutton{
+	width: 25%;
+  }
   /*\\\\\\\\\\\\\\\\\\\\ SEARCHBAR END ////////////////////*/
 
   /*\\\\\\\\\\\\\\\\\\\\ FILTERS ////////////////////*/
