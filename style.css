@@ -267,7 +267,7 @@ input {
 	margin-right: 15px;
 	border-radius: 30px;
 	font-weight: bold;
-	padding-right: 0;
+	padding-right: 10px;
 	padding-left: 0;
 }
 
@@ -814,7 +814,7 @@ footer {
 		margin-bottom: 10px;
 		border-radius: 30px;
 		font-weight: bold;
-		padding-right: 0px;
+		padding-right: 10px;
 		padding-left: 0px;
 	}
 
@@ -1653,5 +1653,3 @@ footer {
 
 	/*\\\\\\\\\\\\\\\\\\\\ FOOTER END ////////////////////*/
 }
-
-@media screen and (max-device-width:375px) {}
