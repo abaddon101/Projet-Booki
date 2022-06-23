@@ -315,6 +315,7 @@ input {
   justify-content: space-between;
   width: 100%;
   margin-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 #accommodation_item {
@@ -324,11 +325,19 @@ input {
 }
 
 .accomodation_bloc_title {
-  display: flex;
+  display: none;
   margin-left: 20px;
   padding-top: 20px;
-  width: 100%;
-  margin-bottom: 40px;
+  width: 70%;
+}
+.accomodation_article_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+  padding-top: 20px;
+  width: 90%;
+  margin-bottom: 20px;
 }
 
 #flexible_card {
@@ -401,7 +410,7 @@ figure img {
   width: 140px;
 }
 
-.populary_block_title {
+.populary_article_title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -411,7 +420,7 @@ figure img {
   margin-bottom: 20px;
 }
 
-.populary_block_title i {
+.populary_article_title i {
   color: black;
   font-size: large;
 }
@@ -910,6 +919,9 @@ footer {
 
   .flexible_footer_card {
     display: block;
+  }
+  .Footer_element {
+    width: 50%;
   }
   /*\\\\\\\\\\\\\\\\\\\\ FOOTER END ////////////////////*/
 
