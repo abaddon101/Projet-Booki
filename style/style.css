@@ -139,6 +139,7 @@ i {
 	border-radius: 10px;
 	height: 40px;
 	margin-left: 15px;
+  margin-bottom: 15px;
 }
 #logobar {
   border-radius: 10px 0px 0px 10px;
@@ -279,6 +280,7 @@ input {
   cursor: pointer;
   transform: scale(1.08);
 }
+
 
 /*\\\\\\\\\\\\\\\\\\\\ FILTERS END ////////////////////*/
 
